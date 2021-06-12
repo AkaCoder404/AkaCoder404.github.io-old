@@ -1,4 +1,6 @@
-title: George's Blog
+name: 'Akashi Li'
+markdown: kramdown
+title: 'George's Blog'
 permalink: '/blog/:title/'
 
 
