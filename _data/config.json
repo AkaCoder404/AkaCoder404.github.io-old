@@ -1,12 +1,12 @@
 {
-    "title": "George's Blog",
+    "title": "Akashi's Blog",
     "palette": "yellow",
     "header": {
-        "title": "George's Blog",
-        "tagline": "Minimal and clean blog theme",
-        "logo_img": "images/logo.svg",
+        "title": "Akashi's Blog",
+        "tagline": "a personal website in the making",
+        "logo_img": "images/logo.png",
         "logo_img_alt": "Fjord Logo",
-        "background_img": "images/header-bg.jpg",
+        "background_img": "images/tokyoday.jpg",
         "has_nav": true,
         "nav_links": [
             {
@@ -48,7 +48,7 @@
             },
             {
                 "label": "GitHub",
-                "url": "https://github.com/",
+                "url": "https://github.com/AkashiLi",
                 "style": "icon",
                 "icon_class": "github",
                 "new_window": true
@@ -70,6 +70,6 @@
         ]
     },
     "footer": {
-        "content": "&copy; Stackbit. All rights reserved. This Jamstack site was created with <a href=\"https://www.stackbit.com/?utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">Stackbit</a>. Create yours <a href=\"https://app.stackbit.com/create?theme=fjord&utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">now</a>"
+        "content": "&copy; George Li"
     }
 }

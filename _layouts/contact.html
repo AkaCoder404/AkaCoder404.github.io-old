@@ -1,7 +1,6 @@
 ---
 layout: body
 ---
-
   {% include header.html site=site page=page image=page.img_path %}
 
   <div id="content" class="site-content">
@@ -19,13 +18,14 @@ layout: body
         {% endif %}
         <div class="post-content">
           {{ content }}
-          <form name="{{ page.form_id }}" id="{{ page.form_id }}" {% assign form_action_is_not_empty = page.form_action | is_not_empty %}{% if form_action_is_not_empty %} action="{{ page.form_action }}" {% endif %}method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+          {% comment %} <form name="{{ page.form_id }}" id="{{ page.form_id }}" {% assign form_action_is_not_empty = page.form_action | is_not_empty %}{% if form_action_is_not_empty %} action=  "{{ page.form_action }}" {% endif %}method="GET" data-netlify="true" data-netlify-honeypot="bot-field"> {% endcomment %}
+           <form name="{{ page.form_id }}" id="{{ page.form_id }}" {% assign form_action_is_not_empty = page.form_action | is_not_empty %}{% if form_action_is_not_empty %} action="https://formspree.io/f/mvodrkkv" {% endif %}method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+          
             <div class="screen-reader-text">
               <label>Don't fill this out if you're human: <input name="bot-field" /></label>
             </div>
             <input type="hidden" name="form-name" value="{{ page.form_id }}" />
             {% for field in page.form_fields %}
-              
               {% include form_field.html field=field %}
             {% endfor %}
             <div class="form-submit">
@@ -34,6 +34,7 @@ layout: body
           </form>
         </div><!-- .post-content -->
       </article><!-- .post -->
+  <!-- your other form fields go here -->
 
     </main><!-- .site-main -->
 

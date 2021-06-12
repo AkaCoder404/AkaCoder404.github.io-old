@@ -3,8 +3,8 @@ title: Home
 has_more_link: true
 more_link_text: Keep reading
 seo:
-  title: Stackbit Fjord Theme
-  description: The preview of the Fjord theme
+  title: Akashi's Blog
+  description: a personal website in the making
   extra:
     - name: 'og:type'
       value: website
