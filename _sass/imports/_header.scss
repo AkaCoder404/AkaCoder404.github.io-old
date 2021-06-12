@@ -66,9 +66,10 @@
 }
 
 .site-description {
+  height: 2rem;
   font-size: 1rem;
   font-style: italic;
-  margin: 0.75em 0 0;
+  margin: 0 0em 0 0;
 }
 
 .menu {
@@ -203,7 +204,7 @@
   }
 
   .site-navigation {
-    margin: 2.5rem auto 0;
+    margin: 1.3rem auto 0;
     max-width: 280px;
     width: 100%;
   }
@@ -222,7 +223,7 @@
 @media only screen and (min-width: 1501px) {
   .site-header,
   .site-header-alt {
-    width: 450px;
+    width: 390px;
   }
 
   .site-header-inside {
