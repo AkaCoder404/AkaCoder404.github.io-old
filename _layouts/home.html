@@ -8,7 +8,7 @@ layout: body
     <main id="main" class="site-main inner">
 
       <div class="post-feed">
-        {% assign posts = '/posts' | get_pages %}
+        {% assign posts = site.posts | get_pages %}
         {% assign posts_count = posts | size %}
         {% if posts_count > 0 %}
           {% assign posts_sorted = posts | sort: 'date' | reverse %}

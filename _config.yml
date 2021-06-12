@@ -1,8 +1,7 @@
-name: 'Akashi Li'
+name: Akashi Li
 markdown: kramdown
-title: 'George's Blog'
+title: George's Blog
 permalink: '/blog/:title/'
-
 
 # title: Stackbit Fjord Theme
 # baseurl: /
