@@ -1,10 +1,10 @@
 ---
-title: About Me
-subtitle: This is a short page about me and my work
+title: Readme, a readme about me
+subtitle: 
 img_path: images/tokyosunset.jpg
 seo:
   title: About Me
-  description: A page about me and my work
+  description: a readme about me
   extra:
     - name: 'og:type'
       value: website
@@ -13,7 +13,7 @@ seo:
       value: About Me
       keyName: property
     - name: 'og:description'
-      value: A page about me and my work
+      value: a readme about me
       keyName: property
     - name: 'og:image'
       value: images/about.jpg
@@ -24,11 +24,21 @@ seo:
     - name: 'twitter:title'
       value: About Me
     - name: 'twitter:description'
-      value: A page about me and my work
+      value: a readme about me
     - name: 'twitter:image'
       value: images/about.jpg
       relativeUrl: true
 layout: page
 ---
 
-Hello, my name is George Li and I am currently a undegraduate studying Computer Science at Tsinghua University
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+
+> there's always a work in progress be it in the mind, the soul, the heart, or in your code. 
+
+How much does the polar bear weigh? Enough to break the ice ... Hi, I'm George, the polar bear, wait, no, I am Undegraduate at Tsinghua University studying Computer Science. I have experience in software development (app development and web development), high performance computing, computer graphics, and operating systems. 
+
+
+
+
+
+
