@@ -35,12 +35,17 @@
         
     </head>
     <body class="palette-{{ site.data.config.palette }}">
+        <script src="{{ 'js/jquery-3.4.1.min.js' | relative_url }}"></script>
         
         {{ content }}
         <!-- Scripts -->
         <script src="{{ 'js/plugins.js' | relative_url }}"></script>
         <script src="{{ 'js/main.js' | relative_url }}"></script>
         <script src="{{ 'js/click.js' | relative_url }}" async="async"></script>
+
+        {% comment %}  extra {% endcomment %}
+        <script src="{{ 'js/bootstrap-4.4.1.bundle.min.js' | relative_url }}"></script>
+        
         {% comment %} <script src="{{ 'js/type.js' | relative_url }}" async="async"></script> {% endcomment %}
         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11" ></script>
         <script>

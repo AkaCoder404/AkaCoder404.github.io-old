@@ -10,10 +10,10 @@ seo:
       value: website
       keyName: property
     - name: 'og:title'
-      value: Stackbit Fjord Theme
+      value: Personal Website
       keyName: property
     - name: 'og:description'
-      value: The preview of the Fjord theme
+      value: a personal website in the making
       keyName: property
     - name: 'og:image'
       value: images/home.jpg
@@ -22,9 +22,9 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Stackbit Fjord Theme
+      value: Personal Website
     - name: 'twitter:description'
-      value: The preview of the Fjord theme
+      value: a personal website in the making
     - name: 'twitter:image'
       value: images/home.jpg
       relativeUrl: true

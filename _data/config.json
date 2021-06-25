@@ -5,7 +5,7 @@
         "title": "Akashi's Blog",
         "tagline": "a personal website in the making",
         "logo_img": "images/logo.png",
-        "logo_img_alt": "Fjord Logo",
+        "logo_img_alt": "Website Logo",
         "background_img": "images/tokyoday.jpg",
         "has_nav": true,
         "nav_links": [
@@ -21,7 +21,12 @@
             },
             {
                 "label": "Projects",
-                "url": "/style-guide",
+                "url": "/projects",
+                "style": "link"
+            },
+            {
+                "label": "Photography",
+                "url": "/photography",
                 "style": "link"
             },
             {
@@ -55,7 +60,7 @@
             },
             {
                 "label": "LinkedIn",
-                "url": "https://www.linkedin.com/",
+                "url": "https://www.linkedin.com/in/george-li-36865a182",
                 "style": "icon",
                 "icon_class": "linkedin",
                 "new_window": true

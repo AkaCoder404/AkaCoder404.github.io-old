@@ -4,19 +4,18 @@ subtitle: >-
   This is a portfolio of projects that I have completed 
 img_path: images/tokyonight.jpg
 seo:
-  title: Theme Style Guide
-  description: A reference for suggested typographic treatment and styles for your content
+  title: Projects
+  description: This is a portfolio of projects that I have completed 
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Theme Style Guide
+      value: Projects
       keyName: property
     - name: 'og:description'
       value: >-
-        A reference for suggested typographic treatment and styles for your
-        content
+        This is a portfolio of projects that I have completed
       keyName: property
     - name: 'og:image'
       value: images/style-guide.jpg
@@ -25,15 +24,14 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Theme Style Guide
+      value: Projects
     - name: 'twitter:description'
       value: >-
-        A reference for suggested typographic treatment and styles for your
-        content
+        This is a portfolio of projects that I have completed 
     - name: 'twitter:image'
       value: images/style-guide.jpg
       relativeUrl: true
 layout: page
 ---
 
-projects page in the making
+This is a collection of personal projects that I have completed over the years. More projects can be found at my github.
