@@ -31,15 +31,15 @@ seo:
       value: images/home.jpg
       keyName: property
       relativeUrl: true
-    # - name: 'twitter:card'
-    #   value: summary_large_image
-    # - name: 'twitter:title'
-    #   value: Personal Website
-    # - name: 'twitter:description'
-    #   value: personal photo album
-    # - name: 'twitter:image'
-    #   value: images/home.jpg
-    #  relativeUrl: true
+    - name: 'twitter:card'
+      value: summary_large_image
+    - name: 'twitter:title'
+      value: Personal Website
+    - name: 'twitter:description'
+      value: personal photo album
+    - name: 'twitter:image'
+      value: images/home.jpg
+      relativeUrl: true
 layout: photos
 
 ---
@@ -71,8 +71,6 @@ layout: photos
     </div>
     {% endfor %}
 </div>
-
-(The photos are from [Unsplash](http://www.unsplash.com)!)
 
 <div class="modal fade" id="exampleModal">
   <div class="modal-dialog modal-lg modal-dialog-centered">

@@ -31,7 +31,17 @@ seo:
     - name: 'twitter:image'
       value: images/style-guide.jpg
       relativeUrl: true
-layout: page
+layout: projects
 ---
 
 This is a collection of personal projects that I have completed over the years. More projects can be found at my github.
+
+### Portfolio
+{% if site.theme_config.show_projects == true %}
+  {% include card_list.html collection=site.data.projects.project_entries %}
+{% endif %}
+### Old Projects
+
+{% if site.theme_config.show_old_projects == true %}
+  {% include card_list.html collection=site.data.projects.old_project_entries %}
+{% endif %}

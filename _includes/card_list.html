@@ -1,0 +1,26 @@
+<ul class="project-card-horizontal-list">
+  {% for item in include.collection %}
+
+    <li class="project-card">
+      <a class="project-card" href="{{ item.url }}">
+        <span class="project-card header">
+          {{ item.title }}
+
+          {% if item.highlight %}
+            <mark class="project-card">{{ item.highlight }}</mark>
+          {% endif %}
+
+        </span>
+
+        <hr />
+
+        {% if item.desc != false %}
+        <p class="project-card body">
+          {{ item.desc }}
+        </p>
+        {% endif %}
+      </a>
+    </li>
+
+  {% endfor %}
+</ul>

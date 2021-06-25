@@ -1,0 +1,40 @@
+project_entries:
+  - title: Project 1
+    url: overview-post
+    desc: Example Project
+
+  - title: Project 2
+    url: overview-post
+    desc: Example Project
+
+  - title: Project 3
+    url: overview-post
+    desc: Example Project
+
+  - title: Project 4
+    url: overview-post
+    desc: Example Project
+    highlight: WIP
+
+  - title: Project 5
+    url: overview-post
+    desc: Example Project
+    highlight: WIP
+
+  - title: Project 6
+    url: overview-post
+    desc: Example Project
+
+old_project_entries:
+  - title: Covid19 APP
+    url: https://github.com/AkashiLi/Sendnews
+    desc: a covid19 java news application
+    highlight: 
+
+  - title: Typeracer App
+    url: https://github.com/AkashiLi/typeracerfrontend
+    desc: type racing app based on the website typeracer
+
+  - title: 企业管理平台
+    url: https://github.com/AkashiLi/thu-course-software-engineering
+    desc: enterprise management platform website for huawei

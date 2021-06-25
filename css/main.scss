@@ -32,7 +32,7 @@ $palette: (
 @import "imports/palettes";
 @import "imports/banner";
 
-
+// photography
 @import "imports/variables";
 @import "imports/mixins";
 @import "imports/utilities";
@@ -41,5 +41,9 @@ $palette: (
 @import "imports/card";
 @import "imports/modal";
 @import "imports/carousel";
+
+
+// projects
+@import "imports/projectcards";
 
 //// # sourceMappingURL=bootstrap.bundle.min.js.map
