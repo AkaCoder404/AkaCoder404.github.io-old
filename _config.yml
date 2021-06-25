@@ -2,7 +2,7 @@ name: Akashi Li
 markdown: kramdown
 title: George's Blog
 permalink: '/blog/:title/'
-favicon: './favicon.png'
+favicon: 'favicon.png'
 
 
 theme_config: 
